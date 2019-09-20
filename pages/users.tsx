@@ -11,8 +11,7 @@ type Props = {
 }
 
 const Users: NextPage<Props> = ({ items, pathname }) => (
-  <Layout title="User List | App">
-    <h1>User List</h1>
+  <Layout title="Users">
     <p>You are currently on: {pathname}</p>
     <List items={items} />
     <p>

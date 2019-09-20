@@ -23,7 +23,7 @@ const UserDetail: NextPage<Props> = ({ item, errors }) => {
 
   return (
     <Layout
-      title={`${item ? item.name : 'Detail'} | App`}>
+      title={`${item ? item.name : 'Detail'}`}>
       {item && <ListDetail item={item} />}
     </Layout>
   )

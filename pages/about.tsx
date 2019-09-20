@@ -3,8 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 
 const About: React.FunctionComponent = () => (
-  <Layout title="About | App">
-    <h1>About</h1>
+  <Layout title="About">
     <p>This is the about page</p>
     <p>
       <Link href="/">

@@ -8,11 +8,11 @@ type Props = {
 
 const Layout: React.FC<Props> = ({
   children,
-  title = 'This is the default title',
+  title = 'Default title',
 }) => (
   <div>
     <Head>
-      <title>{title}</title>
+      <title>{title + " | App"}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
@@ -31,6 +31,7 @@ const Layout: React.FC<Props> = ({
         </Link>
       </nav>
     </header>
+    <h1>{title}</h1>
     {children}
     <footer>
       <hr />
