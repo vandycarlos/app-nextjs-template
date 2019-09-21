@@ -1,4 +1,4 @@
-import * as React from 'react'
+import { FC } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -6,7 +6,7 @@ type Props = {
   title?: string
 }
 
-const Layout: React.FC<Props> = ({
+const Layout: FC<Props> = ({
   children,
   title = 'Default title',
 }) => (

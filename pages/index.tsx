@@ -1,9 +1,8 @@
-import * as React from 'react'
+import { FC } from 'react'
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import { NextPage } from 'next'
 
-const Home: NextPage = () => (
+const Home: FC = () => (
   <Layout title="Home">
     <p>
       <Link href="/about">
@@ -12,6 +11,5 @@ const Home: NextPage = () => (
     </p>
   </Layout>
 )
-
 
 export default Home

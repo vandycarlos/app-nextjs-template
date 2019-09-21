@@ -1,12 +1,11 @@
-import * as React from 'react'
-
+import { FC } from 'react'
 import { User } from '../interfaces'
 
 type Props = {
   item: User
 }
 
-const ListDetail: React.FC<Props> = ({
+const ListDetail: FC<Props> = ({
   item: user,
 }) => (
   <div>

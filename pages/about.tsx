@@ -1,8 +1,8 @@
-import * as React from 'react'
+import { FC } from 'react'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-const About: React.FunctionComponent = () => (
+const About: FC = () => (
   <Layout title="About">
     <p>This is the about page</p>
     <p>
